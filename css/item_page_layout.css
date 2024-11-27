@@ -1,0 +1,64 @@
+body{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    margin:0;
+    height:100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#image{
+    position:relative;
+    grid-column:1;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#image{
+    overflow: hidden;
+}
+
+#left{
+    width:50px;
+    position: absolute;
+    left: 0;
+    top:50%;
+}
+
+#return{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+#right{
+    width: 50px;
+    position: absolute;
+    top:50%;
+    right: 0;
+}
+
+#tags li {
+    margin-bottom: 5px; /* Add spacing between list items */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items to left and right */
+}
+
+footer{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom {
+    margin-top: auto; /* Push #bottom to the bottom of #details */
+    margin-bottom: 10px;
+}
+
+

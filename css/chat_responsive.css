@@ -1,0 +1,15 @@
+@media(max-width: 550px){
+
+    header{margin: 0;}
+
+    .chat{
+        width:90%;
+        margin: 10px auto;
+    }
+    .ctrlsell{
+        display: none;
+    }
+
+
+    
+}

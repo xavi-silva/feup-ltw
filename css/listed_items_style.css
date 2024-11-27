@@ -1,0 +1,94 @@
+*{
+    color: white;
+}
+
+body{
+    background-color: #2c2d2c;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.filter-icon {
+    display: none;
+}
+
+.card{
+    overflow: hidden;
+}
+
+img{
+    max-height: 90%;
+}
+
+.card:hover{
+    background-color: #555555;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline from anchor tag */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Add border for cleaner look */
+    border-radius: 5px; /* Optional: add border radius */
+    height: 10em;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 10em; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between image and text */
+    border-radius: 10px;
+}
+
+.name,
+#price,
+.uploaded {
+    flex: 1;
+}
+
+.name p,
+#price p,
+.uploaded p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.option-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c2d2c;
+    padding: 10px 0;
+}
+
+.option {
+    width: 33.33%;
+    padding: 15px 0;
+    font-size: 18px;
+    background-color: #404240;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.option:hover {
+    background-color: #555555; /* Slightly lighter background on hover */
+}
+
+#selected {
+    background-color: #555555;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    .ctrlsell{
+        display: none;
+    }
+}
